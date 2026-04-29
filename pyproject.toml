@@ -8,8 +8,15 @@ dependencies = [
     "deepagents>=0.5.3",
     "langchain>=0.3.28",
     "langchain-anthropic>=0.3.22",
+    "langchain-community>=0.4.1",
     "langchain-google-genai>=4.2.2",
     "langchain-openai>=0.3.35",
+    "langgraph-cli[inem,inmem]>=0.4.24",
     "python-dotenv>=1.2.2",
     "truststore>=0.10.4",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.6",
 ]

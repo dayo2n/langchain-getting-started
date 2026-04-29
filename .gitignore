@@ -16,3 +16,6 @@ wheels/
 
 # macOS
 .DS_Store
+
+# LangGraph API
+.langgraph_api
