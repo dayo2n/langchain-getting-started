@@ -1942,7 +1942,7 @@ requires-dist = [
     { name = "langchain-community", specifier = ">=0.4.1" },
     { name = "langchain-google-genai", specifier = ">=4.2.2" },
     { name = "langchain-openai", specifier = ">=0.3.35" },
-    { name = "langgraph-cli", extras = ["inem", "inmem"], specifier = ">=0.4.24" },
+    { name = "langgraph-cli", extras = ["inmem"], specifier = ">=0.4.24" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "truststore", specifier = ">=0.10.4" },
 ]
